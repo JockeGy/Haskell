@@ -1,29 +1,3 @@
--- * 2 Players, the "guest" and the bank
--- * First the guest plays (until stop / value>21
--- * The bank plays until the value is above 16
--- * If both the guest and bank has 21+, bank wins
-
--- =============================================================================
-
--- 1. Execute "size hand2" - Section 3.1
--- 2. Document the functions while writing, not afterwards!
--- 3. Skriv, uppefrån och ner, av alla funktioner som finns här: http://www.cse.chalmers.se/edu/course/TDA555/lab2.pdf
-
--- =============================================================================
--- ================================================================================================================================
--- size hand2
--- = size (Some (Card (Numeric 2) Hearts)
---		(Some (Card Jack Spades) Empty))
--- =...
--- = 2
--- ================================================================================================================================
-
--- Lite testfunktioner:
-
--- Funktionen tar reda på hur många kort handen består av.
---hand2 = size(Some (Card (Numeric 2) Hearts) (Some (Card Jack Spades) Empty))
-
-
 module Blackjack where
 import Cards
 import Wrapper
